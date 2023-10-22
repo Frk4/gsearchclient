@@ -3,6 +3,7 @@
 ## Usage
 
 ```python
+>>> pip install -r requirements.txt
 >>> from gsearchclient import gsearchclient
 >>> client = gsearchclient.SearchClient(query_keyword="Python", upload_time="Last hour", location="India", topic="Technology", max_results=5)
 >>> client.get_news_from_query()
