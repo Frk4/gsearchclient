@@ -14,4 +14,5 @@
 >>>
 >>> client.get_config();
 {'location': 'India', 'language': 'english', 'topic': 'Technology', 'query': 'Python', 'youtube upload time': 'Last hour'}.
+>>> pip install -r requirements.txt
 ```
